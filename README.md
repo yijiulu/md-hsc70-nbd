@@ -1,5 +1,8 @@
 # Hsc70 NBD Allosteric Molecular Dynamics Pipeline (GROMACS + OpenMM)
 
+[![CI](https://github.com/yijiulu/md-hsc70-nbd/actions/workflows/ci.yml/badge.svg)](https://github.com/yijiulu/md-hsc70-nbd/actions/workflows/ci.yml)
+[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
+
 Reproducible all-atom molecular dynamics (MD), lobe-rotation kinematics, interdomain linker docking, and optional NMR chemical-shift-perturbation (CSP) comparison pipeline investigating nucleotide-dependent allostery in the human/bovine **Hsc70 (HSPA8) nucleotide-binding domain (NBD)**.
 
 ## Scientific Question & Experimental Design
@@ -38,6 +41,7 @@ Summary finding: isolated Hsc70 NBD remains near the closed `1KAX` geometry (`-3
 
 ```text
 .
+├── .github/workflows/ci.yml       # Automated syntax & geometry unit-test CI
 ├── docs/
 │   ├── ANALYSIS_PLAN.md           # Hypotheses H1–H4, 4B9Q interface definitions & statistical criteria
 │   └── METHODS_RATIONALE.md       # Force-field, ion, protonation & sampling evidence table (with PMIDs/DOIs)
