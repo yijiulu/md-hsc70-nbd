@@ -1,0 +1,5 @@
+state,rep,length_ns,release_ns,q_last20,rmsd_lk_last20,n_contacts_last20,rot_first10,rot_last20,rot_change
+lk_adp,1,100,,0.755,3.29,28.1,3.11,1.41,-2.17
+lk_adp,2,100,,0.834,2.95,27.4,5.67,7.63,1.66
+lk_atp,1,100,,0.729,4.22,27.6,4.03,6.13,2.03
+lk_atp,2,100,,0.624,3.98,22.9,10.4,5.6,-4.21

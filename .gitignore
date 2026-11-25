@@ -1,0 +1,31 @@
+# Python & OS
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# GROMACS trajectories, topologies, checkpoints & logs
+work_*/
+analysis/
+structures/*.pdb
+structures/dnak/
+*.xtc
+*.trr
+*.dcd
+*.tpr
+*.cpt
+*.edr
+*.gro
+*.top
+*.ndx
+*.xvg
+*.log
+*.out
+*.npz
+*.npy
+*.lock
+\#*#
+*_mdout.mdp

@@ -1,0 +1,5 @@
+state,rep,t_end_ns,mg_expected_coord,mg_alpha_contact,k1_in_site,k1_d_max,k2_in_site,k2_d_max,rmsd_ca_mean,rmsd_ca_max,nuc_rmsd_mean,nuc_rmsd_max,ploop_vs_1kax,ploop_vs_3hsc,pbc_min_A
+adp,1,150,1,0,1,3.35,1,2.38,1.43,2.23,0.59,1.24,1.01,0.84,18.2
+adp,2,150,1,0,1,3.83,1,2.76,1.17,1.96,0.652,1.08,0.873,0.91,19.9
+atp,1,150,1,0,1,3.53,1,2.75,1.28,2.19,0.674,1.19,0.721,0.984,17.8
+atp,2,150,1,0,1,2.88,1,2.62,1.09,1.49,0.646,1.08,0.664,1.11,18.3

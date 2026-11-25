@@ -1,0 +1,17 @@
+set,n,mean_dist_pg,metric,observed,null_mean,p_upper,signed_drmsf
+linker,13,16.55,disp_local_excess,0.01351,-0.02861,0.051,
+linker,13,16.55,disp_global_excess,0.03254,-0.117,0,
+linker,13,16.55,drmsf_local (abs),0.04773,0.04364,0.3302,-0.0424
+linker,13,16.55,drmsf_global (abs),0.05354,0.05813,0.549,-0.04951
+SBDb,17,18.37,disp_local_excess,0.04379,-0.03026,0.0002,
+SBDb,17,18.37,disp_global_excess,-0.1343,-0.133,0.5168,
+SBDb,17,18.37,drmsf_local (abs),0.04193,0.04034,0.405,-0.02387
+SBDb,17,18.37,drmsf_global (abs),0.05706,0.0563,0.453,-0.03169
+SBDa,10,22.26,disp_local_excess,-0.01261,-0.02327,0.3354,
+SBDa,10,22.26,disp_global_excess,-0.2063,-0.1738,0.807,
+SBDa,10,22.26,drmsf_local (abs),0.03009,0.05251,0.8342,0.008446
+SBDa,10,22.26,drmsf_global (abs),0.02772,0.07528,0.9886,0.01635
+any,37,18.88,disp_local_excess,0.006927,-0.02779,0.0092,
+any,37,18.88,disp_global_excess,-0.09642,-0.1387,0.0082,
+any,37,18.88,drmsf_local (abs),0.04011,0.04465,0.6698,-0.01952
+any,37,18.88,drmsf_global (abs),0.04698,0.06222,0.919,-0.02199

@@ -1,0 +1,19 @@
+name: hsc70-md
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gromacs>=2024
+  - ambertools>=23.6
+  - openmm>=8.1
+  - pdbfixer>=1.9
+  - pdb2pqr>=3.6
+  - parmed>=4.2
+  - mdanalysis>=2.7
+  - biopython>=1.83
+  - numpy>=1.26
+  - scipy>=1.12
+  - pandas>=2.2
+  - matplotlib>=3.8
+  - pytest>=8.0
+  - pip
