@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - gromacs>=2024
+  - gromacs>=2026  # Native amber19sb.ff + OPC water/ions & residue-specific CMAPs
   - ambertools>=23.6
   - openmm>=8.1
   - pdbfixer>=1.9

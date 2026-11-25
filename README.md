@@ -62,7 +62,7 @@ Summary finding: isolated Hsc70 NBD remains near the closed `1KAX` geometry (`-3
 │   ├── run_md.sh                  # Self-contained NVT -> NPT -> checkpoint-resumable production runner
 │   ├── nbd_defs.py                # Shared subdomains, 4B9Q interfaces, K+ sites & Kabsch geometry helpers
 │   ├── lobe_rotation.py           # BLOSUM62-aligned lobe II vs lobe I axis-angle rotation projection
-│   ├── an_prep.sh                 # Whole-molecule PBC centering & top.pdb extraction
+│   ├── an_prep.sh                 # Whole-molecule PBC centring & top.pdb extraction
 │   ├── an_rep.py                  # Per-frame geometric, ion-site, P-loop & PBC minimum-image observables
 │   ├── an_linker.py               # Linker contact retention Q, slot-aligned RMSD & leucine burial
 │   ├── an_rotation.py             # Unified lobe-rotation projection across all simulated conditions
@@ -90,6 +90,8 @@ mamba env create -f environment.yml
 mamba activate hsc70-md
 python scripts/fetch_structures.py
 ```
+
+> Native `amber19sb.ff` with `OPC` water/ion parameters and residue-specific CMAPs requires **GROMACS >= 2026** (matching `environment.yml`).
 
 ### 2. Build Systems & Run Production MD
 
